@@ -156,6 +156,11 @@ h2{
 background: #c7d3cd52;
 }
 
+.price {
+ 
+  width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
     .product {
@@ -173,11 +178,20 @@ background: #c7d3cd52;
     }
     
     .discount-badge  {
+      width: 100%;
       font-size: 10px;
     }
   .product-name  {
   font-size: 12px;
   }
+
+  
+.price {
+ 
+  width: 100%;
+ 
+  font-size: 12px;
+}
 
     
 }
