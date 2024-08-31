@@ -243,8 +243,205 @@ header {
     transform: scale(1.1);
 }
 
+
+
+
 /* Responsive Design */
-@media (max-width: 768px) {
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    .banner {
+        padding: 30px 15px;
+    }
+
+    .banner-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    .banner-text .price h3 {
+        font-size: 1.8rem;
+    }
+
+    .banner-text .btn {
+        padding: 8px 18px;
+        font-size: 1rem;
+    }
+}
+
+/* Small Devices - Landscape (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .left ul.main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .right .wish-cart ul {
+        gap: 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .banner-text .price h3 {
+        font-size: 1.6rem;
+    }
+
+    .banner-text .btn {
+        padding: 8px 16px;
+        font-size: 0.95rem;
+    }
+}
+
+/* Small Devices - Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .left ul.main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo img {
+        max-width: 80px;
+    }
+
+    .right .wish-cart ul {
+        gap: 8px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    .banner-text .price h3 {
+        font-size: 1.4rem;
+    }
+
+    .banner-text .btn {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .tops {
+        font-size: 12px;
+    }
+}
+
+/* Top Selling Brands Section */
+
+/* Section Styles */
+.top-brands {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.top-brands h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.brand-item > p {
+    font-size: 2rem  !important;
+    color: #333;
+    margin: 0;
+}
+
+.brand-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design for Top Brands Section */
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .top-brands {
+        padding: 50px 15px;
+    }
+
+    .top-brands h2 {
+        font-size: 2.2rem;
+    }
+
+    .brand-item img {
+        max-width: 90px;
+    }
+
+    .brand-item p {
+        font-size: 1.8rem;
+    }
+}
+
+/* Small Devices - Landscape (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .top-brands {
+        padding: 40px 15px;
+    }
+
     .top-brands h2 {
         font-size: 2rem;
     }
@@ -254,7 +451,26 @@ header {
     }
 
     .brand-item p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* Small Devices - Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+    .top-brands {
+        padding: 30px 10px;
+    }
+
+    .top-brands h2 {
+        font-size: 1.8rem;
+    }
+
+    .brand-item img {
+        max-width: 70px;
+    }
+
+    .brand-item p {
+        font-size: 1.2rem;
     }
 }
 
