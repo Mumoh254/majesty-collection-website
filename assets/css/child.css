@@ -191,7 +191,14 @@ background: #c7d3cd52;
   }
 
   
-.price {
+.price .del {
+ 
+  width: 100% !important;
+ 
+  font-size: 12px !important;
+}
+
+.price .span{
  
   width: 100% !important;
  
