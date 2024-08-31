@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Styles (Default) */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .left,
+header .right {
+    display: none;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+.products .all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.products .product {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.products .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer .subscribe-form input[type="email"] {
+    width: 80%;
+}
+
+.footer .subscribe-form button {
+    width: 80%;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    header .left,
+    header .right {
+        display: block;
+    }
+
+    header .logo img {
+        width: 200px;
+    }
+
+    .products .all-products {
+        gap: 20px;
+    }
+
+    .footer .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer .footer-section {
+        width: 45%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    header .left,
+    header .right {
+        flex: 1;
+    }
+
+    header .left ul,
+    header .right ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .logo {
+        flex: 0;
+    }
+
+    .products .all-products {
+        justify-content: space-between;
+    }
+
+    .footer .footer-section {
+        width: 22%;
+    }
+
+    .footer .subscribe-form input[type="email"],
+    .footer .subscribe-form button {
+        width: auto;
+    }
+}

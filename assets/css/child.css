@@ -165,45 +165,31 @@ background: #c7d3cd52;
  
   width: 100%;
 }
-
-@media not screen and (max-width: 768px)  {
-
-    .product {
-        width: 230px;
-        padding: 4rem  !important;
-        height: 350px;
-        background: #f9f0f037  !important;
-     
-    }
-
-
-    .product img {
-        width: 200px;
-        height: 220px;
-    }
-    
-    .discount-badge  {
+@media screen and (max-width: 768px) {
+  .product {
       width: 100%;
-      font-size: 10px !important;
-    }
-  .product-name  {
-  font-size: 12px !important;
+      max-width: 230px; /* Adjust max width */
+      padding: 2rem; /* Adjust padding */
+      height: auto; /* Allow height to adjust automatically */
+      background: #f9f0f037 !important;
   }
 
-  
-.price .del {
- 
-  width: 100% !important;
- 
-  font-size: 12px !important;
-}
+  .product img {
+      width: 100%; /* Set width to 100% for responsiveness */
+      max-height: 220px; /* Set a maximum height */
+      height: auto; /* Allow height to adjust automatically */
+  }
 
-.price .span{
- 
-  width: 100% !important;
- 
-  font-size: 12px !important;
-}
+  .discount-badge {
+      font-size: 0.75rem !important; /* Adjust font size */
+  }
 
-    
+  .product-name {
+      font-size: 0.75rem !important; /* Adjust font size */
+  }
+
+  .price .del,
+  .price .span {
+      font-size: 0.75rem !important; /* Adjust font size */
+  }
 }
