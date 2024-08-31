@@ -16,7 +16,7 @@ body{
 
 
 .footer {
-    background-color: #FBF6E2;
+    background-color: #FFF5E0;
     color:  #000000;
     padding: 50px 20px;
     font-family: Arial, sans-serif;
@@ -33,13 +33,13 @@ body{
 .footer-title {
     font-size: 1.5em;
     margin-bottom: 20px;
-    color: #173B45;
+    color: #141E46;
 }
 
 .footer-section p {
     font-size: 1em;
     line-height: 1.6;
-    color: #000000;
+    color: #141E46;
 }
 
 .social-icons {
@@ -91,7 +91,7 @@ body{
     border-top: 1px solid #444;
     padding: 20px;
     color: #fff;
-    background: #173B45;
+    background: #141E46;
     font-size: 18px;
 }
 

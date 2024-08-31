@@ -23,12 +23,13 @@ body{
 }
 
 .tops {
-    background: #FF5F00 !important;
+    background: #141E46!important;
     padding: 1rem;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 }
 
 
@@ -39,8 +40,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #fbf6e2;
-    color: linear-gradient(to right, #171f32 0%, #0b2b36 100%);
+    background-color: #FFF5E0;
+    color: #141E46;
 }
 
 .left ul.main {
@@ -52,7 +53,7 @@ header {
 }
 
 .left ul.main li a {
-    color: #000000;
+    color: #141E46;
     text-decoration: none;
     font-weight: bold;
 }
