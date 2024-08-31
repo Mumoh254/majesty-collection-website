@@ -26,287 +26,151 @@ body{
     align-items: center;
 }
 
-header{
-    padding: 30px 100px;
+
+/* Header Styles */
+header {
+    background-color: #f4f4f4;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
-}
-
-#head{
-    width: 10px;
-    height: auto;
-   
-}
-
-#heart{
-    width: 30px;
-    height: auto;
-    margin-right: 20px;
-}
-
-#shoping{
-    width: 50px;
-    height: auto;
-}
-
-#shoes{
-    width: 500px;
-    height: auto;
-   
-    cursor: pointer;
-}
-
-
-
-#j-3{
-    width: 250px;
-    height: auto;
-   
-}
-
-.left .main{
-    display: flex;
     align-items: center;
-   
-}
-
-.left .main li{
-    margin-right: 50px;
-    font-weight: 600;
-}
-
-.left .main li a{
-    text-decoration: none;
-    padding:  5px;
-    position: relative;
-    font-size: 18px;
-}
-.left .main li a::before{
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 100px;
-    background-color: #0042A3;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.left .main li a:hover {
-    color: #0042A3;
-}
-
-.left .main li a:hover::before{
-    bottom: -5px;
-    opacity: 1;
-}
-
-.logo{
-    text-align: center;
-}
-.right{
-    display: flex;
-    align-items: center;
-}
-
-.right form{
-    position: relative;
-    width: 250px;
-    height: 45px;
-    margin-right: 20px;
-}
-
-.right form input {
-    width: 100%;
-    height: 100%;
-    border: none;
-    box-shadow: 0 0 8px #ccc;
-    padding: 5px 15px;
-    border-radius: 50px;
-}
-
-.right form button{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 20%;
-    height: 100%;
-    background-color: #0042A3;
-    border: none;
-    cursor: pointer;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-
-.right .wish-cart ul{
-    list-style: none;
-    display:flex;
-    align-items: center;
-}
-
-.right .wish-cart ul li{
-    margin-top: 2px;
-    
-}
-
-.right .wish-cart span{
-    position: absolute;
-    top: 60px;
-    right:98px;
-    display: block;
-    padding: 5px 10px;
-    background-color: #0042A3;
+    padding: 15px 20px;
+    background-color: #333;
     color: #fff;
-    border-radius: 50px;
+}
+
+.left ul.main {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.left ul.main li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.right .wish-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.right .wish-cart ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.right .wish-cart ul li a img {
+    width: 24px;
+    height: auto;
+}
+
+.right .wish-cart span {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
     font-size: 12px;
 }
 
-.banner{
+/* Banner Styles */
+.banner {
     display: flex;
-  
-
-    padding: 50px 100px;
-    padding-bottom: 0;
- 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 20px;
 }
 
-.banner-text  p  {
-    font-size: 32px;
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
-.deliver {
-    color: rgb(0, 0, 0);
-}
-
-
-
-h1{
-    font-size: 35px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-   
-}
-
-h1 span{
-    color: #0042A3;
-}
-
-p{
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-.price{
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
- a{
-    text-decoration: none;
-}
-
-.btn{
-    width: 175px;
-    height: 40px;
-    background: #0042A3;
-    color: #fff;
-    padding-top:12px;
-    display: block;
+.banner-text {
+    max-width: 500px;
     text-align: center;
-    border-radius: 5px;
-    border: 1px solid #0042A3;
     margin-top: 20px;
 }
 
-.btn:hover{
-     background-color: transparent;
-     color: #0042A3;
+.banner-text h1 {
+    font-size: 2.5rem;
+    color: #333;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    .banner {
-        padding: 5px;
-        flex-direction: column;
-       
-    
-    }
+.banner-text p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
 
-    h1 {
-        font-size: 23px;
-    }
+.banner-text .price h3 {
+    color: #e91e63;
+    font-size: 2rem;
+    margin: 20px 0;
+}
 
-    .banner  p {
-        font-size: 16px;
-        color: #333;
+.banner-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
 
-    }
-    .banner-img  img {
-        height: 250px !important;
-        width: 290px !important;
-    }
+.banner-text .btn:hover {
+    background-color: #d81b60;
+}
 
-    .tops  {
-        font-size: 14px  !important;
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
         text-align: center;
     }
 
-    header{
-      
-        display: flex;
-        padding: 5px;
-        width: 100%  !important;
+    .left, .right {
+        width: 100%;
+        justify-content: center;
     }
-    
-#head{
-    width: 10px;
-    height: auto;
-   
-}
 
-#heart{
- display: none;
-}
+    .logo {
+        margin: 15px 0;
+    }
 
-#shoping{
-   display: none !important;
-}
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
 
-#shoes{
+    .banner-text h1 {
+        font-size: 2rem;
+    }
 
-    height: auto;
-   
-    cursor: pointer;
-}
+    .banner-text .price h3 {
+        font-size: 1.5rem;
+    }
 
-
-
-#j-3{
-    width: 30px;
-    height: auto;
- 
-   
-}
-
-.left .main{
-    display: flex;
-    align-items: start;
-
-
-   
-}
-
-.left .main li{
-    margin-right: 5px;
-   
- 
-}
-   
-  
+    .banner-text .btn {
+        width: 100%;
+    }
 }
