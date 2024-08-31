@@ -18,7 +18,7 @@ body{
 }
 
 .tops {
-    background: #d5ac08  !important;
+    background: #FF5F00 !important;
     padding: 1rem;
     height: 50px;
     display: flex;
@@ -249,6 +249,11 @@ p{
     .banner-img  img {
         height: 250px !important;
         width: 290px !important;
+    }
+
+    .tops  {
+        font-size: 14px  !important;
+        text-align: center;
     }
 
    
