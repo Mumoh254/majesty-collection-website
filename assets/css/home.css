@@ -311,7 +311,7 @@ header {
     .left ul.main {
       
         gap: 10px;
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
 
     .logo img {
@@ -326,7 +326,7 @@ header {
     .banner {
         flex-direction: column;
         padding: 20px 10px;
-        background: #000;
+     
     }
 
     .banner-text h1 {
