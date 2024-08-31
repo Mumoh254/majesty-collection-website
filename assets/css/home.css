@@ -1,3 +1,17 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+:root {
+    --font-family: 'Roboto';
+    --font-poppins: "Poppins", sans-serif;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +32,7 @@ ul li{
 
 body{
     width: 100%;
-    min-height: 100vh;
+ 
     background-color: #F5F5F5; /* Light Gray */
   
 }
@@ -481,153 +495,6 @@ header {
 }
 
 
-
-
-/*     fooooter   */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-body{
-    scroll-behavior: smooth;
-  }
-
-  
-:root{
-    --font-family:  'Roboto';
-    --font-poppins:  "poppins"  sans-serif;
-    
-    
-}
-
-
-
-.footer {
-    background: #f2f2f2 !important;
-    color:  #000000;
-    padding: 50px 20px;
-    font-family: Arial, sans-serif;
-}
-
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-title {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #141E46;
-}
-
-.footer-section p {
-    font-size: 1em;
-    line-height: 1.6;
-    color: #141E46;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    display: inline-block;
-    font-size: 1.5em;
-    color: #ff000d;
-    font-weight:  900;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: #ff5252;
-}
-
-.subscribe-form {
-    display: flex;
-    gap: 10px;
-  
-
-}
-
-.subscribe-form input[type="email"] {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.subscribe-form .btn {
-    padding: 10px 20px;
-    background-color:#ff000d;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-   
-    transition: background-color 0.3s ease;
-}
-
-.subscribe-form .btn:hover {
-    background-color:#FF0000;
-  
-}
-
-.footer-bottom {
-    
-    margin-top: 5px;
-    text-align: center;
-    margin-top: 40px;
-
-    padding: 20px;
-    color: #fff;
-   
-    background: #ff000d;
-    font-size: 18px;
-}
-
-.footer-bottom p {
-    margin: 0;
-    font-size: 0.9em;
-}
-
-.map a {
-    color: #ff000d;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-}
-@media (max-width: 768px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        font-size: 14px;
-    }
-
-    .subscribe-form {
-        flex-direction: column;
-    }
-
-    .subscribe-form input[type="email"] {
-        margin-bottom: 10px;
-        font-weight: 500;
-    }
-}
-
- */
-
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    scroll-behavior: smooth;
-}
-
-:root {
-    --font-family: 'Roboto';
-    --font-poppins: "Poppins", sans-serif;
-}
 
 .footer {
     background: #f2f2f2 !important;
