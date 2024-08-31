@@ -168,15 +168,15 @@ background: #c7d3cd52;
 
 
     .product img {
-        width: 145px;
-        height: 190px;
+        width: 130px;
+        height: 170px;
     }
     
     .discount-badge  {
-      font-size: 12px;
+      font-size: 10px;
     }
   .product-name  {
-  font-size: 14px;
+  font-size: 12px;
   }
 
     
