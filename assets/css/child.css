@@ -193,3 +193,63 @@ background: #c7d3cd52;
       font-size: 0.75rem !important; /* Adjust font size */
   }
 }
+
+/* Landscape phones (480px - 767px) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .product {
+      width: 100%;
+      max-width: 270px; /* Slightly wider for landscape phones */
+      padding: 1.5rem; /* Adjust padding */
+      height: auto; /* Allow height to adjust automatically */
+      background: #f9f0f037 !important;
+  }
+
+  .product img {
+      width: 100%; /* Set width to 100% for responsiveness */
+      max-height: 180px; /* Set a slightly lower max height */
+      height: auto; /* Allow height to adjust automatically */
+  }
+
+  .discount-badge {
+      font-size: 0.8rem !important; /* Adjust font size */
+  }
+
+  .product-name {
+      font-size: 0.85rem !important; /* Adjust font size */
+  }
+
+  .price .del,
+  .price .span {
+      font-size: 0.85rem !important; /* Adjust font size */
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .product {
+      width: 45%; /* Take up almost half the screen width on tablets */
+      max-width: 320px; /* Slightly wider for tablets */
+      padding: 1.5rem; /* Adjust padding */
+      height: auto; /* Allow height to adjust automatically */
+      background: #f9f0f037 !important;
+  }
+
+  .product img {
+      width: 100%; /* Set width to 100% for responsiveness */
+      max-height: 220px; /* Set a slightly higher max height */
+      height: auto; /* Allow height to adjust automatically */
+  }
+
+  .discount-badge {
+      font-size: 0.9rem !important; /* Adjust font size */
+  }
+
+  .product-name {
+      font-size: 1rem !important; /* Adjust font size */
+  }
+
+  .price .del,
+  .price .span {
+      font-size: 0.9rem !important; /* Adjust font size */
+  }
+}
