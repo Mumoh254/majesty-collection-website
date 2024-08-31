@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    scroll-behavior: smooth;
+  }
+  
+
 ul li{
     list-style-type: none;
     padding: 0;
@@ -179,3 +184,70 @@ header {
         text-align: center;
     }
 }
+
+
+
+
+
+/*    toop   selling  brands   css
+ */
+
+ /* Section Styles */
+ .top-brands {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.top-brands h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.brand-item > p {
+    font-size: 2rem  !important;
+    color: #333;
+    margin: 0;
+}
+
+.brand-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-brands h2 {
+        font-size: 2rem;
+    }
+
+    .brand-item img {
+        max-width: 80px;
+    }
+
+    .brand-item p {
+        font-size: 1rem;
+    }
+}
+
