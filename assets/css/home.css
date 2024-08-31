@@ -173,4 +173,8 @@ header {
     .banner-text .btn {
         width: 100%;
     }
+
+    .tops  {
+        font-size: 12px;
+    }
 }
