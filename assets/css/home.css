@@ -171,46 +171,6 @@ header {
     background-color: #d81b60;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .left, .right {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .logo {
-        margin: 15px 0;
-    }
-
-    .banner {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .banner-text h1 {
-        font-size: 2rem;
-    }
-
-    .banner-text .price h3 {
-        font-size: 1.5rem;
-    }
-
-    .banner-text .btn {
-        width: 100%;
-    }
-
-    .tops  {
-        font-size: 12px;
-        text-align: center;
-    }
-}
-
 
 
 
