@@ -166,7 +166,7 @@ background: #c7d3cd52;
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media not screen and (max-width: 768px)  {
 
     .product {
         width: 160px;
