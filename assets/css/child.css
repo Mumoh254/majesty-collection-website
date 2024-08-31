@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+:root  {
+    --light-gray: #eba4aa;
+    --light-gray-initial : #c7ba;
+    --pale-spring-bud: #f49b01;
+    --gray-web: #333;
+    --black-calm:  #141414 ;
+    --black: #082c38;
+    --black--maj:#0b59de ;
+    --maj--fotter:  #d9c7;
+    --cultured-1: #d9c7ba;
+    --pink-majesty:  #eba4aa;
+  
+ 
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 1.7rem;
+	font-family: 'Merriweather Sans', sans-serif;
+
+	color: #ececec;
+	padding: 0rem;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+}
+
+.all-products{
+	display: flex;
+  
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    width: 100%;
+   
+  
+
+}
+
+.product{
+	overflow: hidden;
+	background: #fffeff !important;
+	color: #cf0202;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem 1rem;
+    position: relative;
+  
+    border:  0.5px  solid #33333210;
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product-info  .del {
+  color: black;
+}
+
+.product-info  .span {
+  color: rgb(3, 17, 24);
+  font-weight: 600;
+}
+
+
+.product:hover img{
+	scale:  1.4;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+	height: 200px;
+	
+	transition: all 0.3s;
+}
+
+.product-info {
+    /* Styling for the product info section */
+    text-align: center;
+  
+    width: 100%;
+    padding-bottom: 3px;
+   
+  }
+  
+  .product-name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .discount-badge {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+
+.product a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #0b2b36;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
+
+.product {
+   
+background: #c7d3cd52;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .product {
+        width: 160px;
+        padding: 4rem  !important;
+        height: 320px;
+     
+    }
+
+
+    .product img {
+        width: 145px;
+        height: 200px;
+    }
+
+  
+
+    
+}
