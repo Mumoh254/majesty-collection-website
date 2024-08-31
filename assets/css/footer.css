@@ -265,7 +265,7 @@ body {
     }
 
     .footer-section p {
-        font-size: 0.9em; /* Smaller font size for text */
+        font-size: 0.6em; /* Smaller font size for text */
     }
 
     .social-icons {
@@ -273,7 +273,7 @@ body {
     }
 
     .social-icon {
-        font-size: 1.2em; /* Smaller icon size */
+        font-size: 1em; /* Smaller icon size */
     }
 
     .subscribe-form {
@@ -290,7 +290,7 @@ body {
     }
 
     .footer-bottom {
-        font-size: 0.8em; /* Smaller footer text */
+        font-size: 0.6em; /* Smaller footer text */
     }
 
     .map a {
@@ -310,7 +310,7 @@ body {
     }
 
     .footer-title {
-        font-size: 1.3em; /* Moderate font size */
+        font-size: 1.2em; /* Moderate font size */
     }
 
     .footer-section p {
@@ -322,7 +322,7 @@ body {
     }
 
     .social-icon {
-        font-size: 1.3em; /* Moderate icon size */
+        font-size: 1rem; /* Moderate icon size */
     }
 
     .subscribe-form {
