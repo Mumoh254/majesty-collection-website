@@ -234,6 +234,7 @@ p{
     .banner {
         padding: 5px;
         flex-direction: column;
+       
     
     }
 
@@ -256,6 +257,56 @@ p{
         text-align: center;
     }
 
+    header{
+      
+        display: flex;
+        padding: 5px;
+        width: 100%  !important;
+    }
+    
+#head{
+    width: 10px;
+    height: auto;
+   
+}
+
+#heart{
+ display: none;
+}
+
+#shoping{
+   display: none !important;
+}
+
+#shoes{
+
+    height: auto;
+   
+    cursor: pointer;
+}
+
+
+
+#j-3{
+    width: 30px;
+    height: auto;
+ 
+   
+}
+
+.left .main{
+    display: flex;
+    align-items: start;
+
+
+   
+}
+
+.left .main li{
+    margin-right: 5px;
+   
+ 
+}
    
   
 }

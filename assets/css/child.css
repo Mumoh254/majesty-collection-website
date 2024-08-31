@@ -159,16 +159,22 @@ background: #c7d3cd52;
         width: 160px;
         padding: 4rem  !important;
         height: 320px;
+        background: #f9f0f037  !important;
      
     }
 
 
     .product img {
         width: 145px;
-        height: 200px;
+        height: 190px;
     }
-
-  
+    
+    .discount-badge  {
+      font-size: 12px;
+    }
+  .product-name  {
+  font-size: 14px;
+  }
 
     
 }
